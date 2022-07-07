@@ -25,14 +25,5 @@ Run `banga generate <type> <name>` to generate a new file types. Visit [here](ht
 
 | Routes                                                           | Description                              | Auth roles                            |
 | -----------------------------------------------------------------|----------------------------------------- | ------------------------------------- |
-| [POST] &nbsp; /api/auth/sign-up                                  | Create a new account                     | none                                     
-| [POST] &nbsp; /api/auth/sign-in                                  | User sign in                             | none                                      
-| [POST] &nbsp; /api/auth/request-email-verification               | Resend verfication email                 | none                                     
-| [POST] &nbsp; /api/auth/verify-email                             | Email verification                       | none                                     
-| [POST] &nbsp; /api/auth/request-password-reset                   | Sends a request password email           | none                                      
-| [POST] &nbsp; /api/auth/reset-password                           | Reset password form handler              | none                                      
-| [POST] &nbsp; /api/users                                         | Create a user                            | User                                  
-| [GET] &nbsp; /api/users                                          | Get all users                            | Admin                                 
-| [GET] &nbsp; /api/users/:userId                                  | Get a user                               | User                                  
-| [UPDATE] &nbsp; /api/users/::userId                              | Update a user                            | User                                  
-| [DELETE] &nbsp; /api/users/:userId                               | Delete a user                            | Admin                                 
+| [POST] &nbsp; /split-payments/computesign-up                                  | Splits payment for user                      | none                                     
+|
